@@ -31,18 +31,18 @@ pip install -r requirements.txt
 ```
 3. Создайте файл .env в корне проекта со следующим содержимым:
 
-### MySQL
+MySQL: 
 MYSQL_HOST=ваш_хост
 MYSQL_USER=ваш_пользователь
 MYSQL_PASSWORD=ваш_пароль
 MYSQL_DATABASE=sakila
 
-### MongoDB
+MongoDB: 
 MONGO_URI=ваш_uri_подключения
 MONGO_DB_NAME=имя_базы
 MONGO_COLLECTION_NAME=имя_коллекции
 
-### extra
+Extra: 
 RESULTS_PAGE_SIZE=10
 
 4. Запустите приложение:
@@ -51,18 +51,12 @@ python main_final_projekt.py
 ```
 
 ## Примечания
-
 Рейтинги фильмов зашифрованы в виде букв (G, PG, PG-13, R, NC-17). Их расшифровка:
-
 G — General audiences (для всех)
-
 PG — Parental guidance suggested (рекомендуется присутствие родителей)
-
 PG-13 — Parents strongly cautioned (не для детей младше 13 лет)
-
 R — Restricted (до 17 — только с родителями)
-
 NC-17 — Только для взрослых
 
-Автор Olga Soloveva
-Проект в рамках курса "ItCareerHub — Python Developer"
+## Автор Olga Soloveva
+## Проект в рамках курса "ItCareerHub — Python Developer"
