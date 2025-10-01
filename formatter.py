@@ -12,9 +12,7 @@ RATING_EXPLANATIONS = {
 
 
 def format_table(data, headers="keys"):
-    """
-    Форматирует список словарей в таблицу и добавляет расшифровку рейтингов.
-    """
+    # Форматирует список словарей в таблицу и добавляет расшифровку рейтингов
     if not data:
         return "No data to display."
 
